@@ -34,15 +34,15 @@ Common Block Definitions
 & \texttt{iel} & \textrm{User element number} \\
 & \texttt{nel} & \textrm{Number nodes on current element} \\
 \hline
-\texttt{elplot} & \texttt{tt} & \textrm{Element stress values for} \texttt{TPLOt} \\
+\texttt{elplot} & \texttt{tt} & \textrm{Element stress values for} \ \texttt{TPLOt} \\
 \hline
 \texttt{eltran} & \texttt{bpr} & \textrm{Principal stretch} \\
 & \texttt{ctan} & \textrm{Element multipliers} \\
 \hline
-\texttt{eluser} & \texttt{ut} & \textrm{Element user values for} \texttt{TPLOt} \\
+\texttt{eluser} & \texttt{ut} & \textrm{Element user values for} \ \texttt{TPLOt} \\
 \hline
-\texttt{hdata} & \texttt{nh1} & \textrm{Pointer to tn history data} \\
-& \texttt{nh2} & \textrm{Pointer to tn+1 history data} \\
+\texttt{hdata} & \texttt{nh1} & \textrm{Pointer to} \ t_n \ \textrm{history data} \\
+& \texttt{nh2} & \textrm{Pointer to} \ t_{n+1} \ \textrm{history data} \\
 & \texttt{nh3} & \textrm{Pointer to element history} \\
 \hline
 \texttt{iofile} & \texttt{ior} & \textrm{Current input logical unit} \\
