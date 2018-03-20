@@ -1,5 +1,5 @@
-Material Parameters ``d(*)``
-=============================
+``d(*)``： Material Parameters
+=================================
 
 :math:`\begin{array}{rll}
 \hline

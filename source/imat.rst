@@ -1,5 +1,5 @@
-Non-linear elastic material type ``imat``
-======================================================= 
+``d(20)``: Non-linear elastic material type ``imat``
+=========================================================
 
 :math:`\begin{array}{rl}
 \hline
