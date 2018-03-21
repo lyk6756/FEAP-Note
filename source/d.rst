@@ -156,7 +156,9 @@
 239 & -         & \textrm{Unused} \\
 240 & -         & \textrm{0 - Element based; 1 - nodal based formulation} \\
 241 & -         & \textrm{Number of active element degrees of freedom} \\
-242-248 & V_1, V_2    & \textrm{Plastic Vector orientation} \\
+242 & -         & \textrm{Plastic Vector orientation indicator} \\
+243-245 & V_1   & \textrm{Three Components of vector} \ V_1 \\
+246-248 & V_2   & \textrm{Three Components of vector} \ V_2 \\
 249-255 & -     & \textrm{Reference vector types and values} \\
 260-279 & \texttt{nstv} & \textrm{Number structure vectors/values} \\
 280-282 & g_i   & \textrm{Thermal-elastic temperature function} \\
