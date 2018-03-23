@@ -9,6 +9,10 @@ Common Block Definitions
 \texttt{bdata} & \texttt{o} & \textrm{Page eject option} \\
 & \texttt{head} & \textrm{Title record} \\
 \hline
+\texttt{cdat1} & \texttt{ndd} & \textrm{Size of program material parameters} \ \texttt{d(ndd, nummat)} \\
+& \texttt{nie} & \textrm{Size of element control array} \ \texttt{ie(nie, nummat)} \\
+& \texttt{nud} & \textrm{Size of user material parameters} \ \texttt{ud(*)} \\
+\hline
 \texttt{cdata} & \texttt{numnp} & \textrm{Number of mesh nodes} \\
 & \texttt{numel} & \textrm{Number of mesh elements} \\
 & \texttt{nummat} & \textrm{Number of material sets} \\
@@ -18,6 +22,9 @@ Common Block Definitions
 \hline
 \texttt{comblk} & \texttt{hr} & \textrm{Real array data} \\
 & \texttt{mr} & \textrm{Integer array data} \\
+\hline
+\texttt{elcoor} & \texttt{xref} & \textrm{Reference coordinates for the constitutive point} \\
+& \texttt{xcur} & \textrm{Current coordinates for the constitutive point} \\
 \hline
 \texttt{counts} & \texttt{nstep} & \textrm{Total number of time steps} \\
 & \texttt{niter} & \textrm{Number of iterations current step} \\
@@ -47,6 +54,9 @@ Common Block Definitions
 \hline
 \texttt{iofile} & \texttt{ior} & \textrm{Current input logical unit} \\
 & \texttt{iow} & \textrm{Current output logical unit} \\
+\hline
+\texttt{pointer} & \texttt{np} & \textrm{Pointer for standard program array} \\
+& \texttt{up} & \textrm{Pointer for user defined array} \\
 \hline
 \texttt{prstrs} & \texttt{nph} & \textrm{Pointer to global projection arrays} \\
 & \texttt{ner} & \textrm{Pointer to global error indicator} \\
