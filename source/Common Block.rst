@@ -73,6 +73,7 @@ Common Block Definitions
 & \texttt{sg3} & \textrm{Points natural coordinates and weights in 3D} \\
 & \texttt{el3} & \textrm{Points natural volume coordinates and weights in 3D} \\
 & \texttt{shp3} & \textrm{Shape functions and derivatives of points in 3D} \\
+\hline
 \texttt{sdata} & \texttt{ndf} & \textrm{Maximum dof/node} \\
 & \texttt{ndm} & \textrm{Mesh space dimension} \\
 & \texttt{nen1} & \textrm{Dimension 1 on IX array} \\
