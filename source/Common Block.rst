@@ -63,6 +63,16 @@ Common Block Definitions
 & \texttt{erav} & \textrm{Element error value} \\
 & \texttt{j-int} & \textrm{J integral values} \\
 \hline
+\texttt{qudshp} & \texttt{jac} & \textrm{Jacobian matrix determinant at points} \\
+& \texttt{lint} & \textrm{Number of quadrature points} \\
+& \texttt{sg1} & \textrm{Points natural coordinates and weights in 1D} \\
+& \texttt{shp1} & \textrm{Shape functions and derivatives of points in 1D} \\
+& \texttt{sg2} & \textrm{Points natural coordinates and weights in 2D} \\
+& \texttt{el2} & \textrm{Points natural area coordinates and weights in 2D} \\
+& \texttt{shp2} & \textrm{Shape functions and derivatives of points in 2D} \\
+& \texttt{sg3} & \textrm{Points natural coordinates and weights in 3D} \\
+& \texttt{el3} & \textrm{Points natural volume coordinates and weights in 3D} \\
+& \texttt{shp3} & \textrm{Shape functions and derivatives of points in 3D} \\
 \texttt{sdata} & \texttt{ndf} & \textrm{Maximum dof/node} \\
 & \texttt{ndm} & \textrm{Mesh space dimension} \\
 & \texttt{nen1} & \textrm{Dimension 1 on IX array} \\
